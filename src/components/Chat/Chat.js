@@ -27,7 +27,7 @@ class Chat extends React.Component {
       showModal : false
     }
 
-    this.ENDPOINT = "https://chatty-simple-chat-app.herokuapp.com/";
+    this.ENDPOINT = "https://chatty-backend.onrender.com";
     //this.ENDPOINT = "localhost:5000";
 
     this.socket = io(this.ENDPOINT);
